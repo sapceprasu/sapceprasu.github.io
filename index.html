@@ -682,81 +682,52 @@
           </div>
         </section>
 
-    <section id="about">
+<section id="about">
       <div class="section-head">
         <div class="section-num">01</div>
         <h2 class="section-title">About</h2>
       </div>
       <p class="section-intro">
-        I am a researcher focused on making language models more interpretable, psychologically grounded,
-        and behaviourally controllable. My broader goal is to connect modern NLP with ideas from psychology,
-        human values, and real-world interaction design.
+        I am a PhD researcher investigating why multi-objective alignment fails in large language models
+        and how understanding internal representational structure can lead to more principled solutions.
       </p>
-
       <div class="about-grid">
-        <div class="panel about-copy">
+        <div class="panel about-copy" style="grid-column: 1 / -1;">
           <p>
-            I am currently a <strong>PhD candidate at the University of Western Australia</strong>,
-            where I work on research spanning <strong>LLM personality assessment</strong>,
-            <strong>persona consistency in discourse</strong>, <strong>activation engineering</strong>,
-            and <strong>sequential preference alignment</strong>.
+            I am a <strong>PhD candidate at the University of Western Australia</strong>, working on
+            <strong>mechanistic interpretability</strong> and <strong>multi-objective behavioural alignment</strong>
+            in large language models. My research investigates a specific and underexplored problem: alignment
+            objectives such as helpfulness, harmlessness, and honesty are likely encoded as geometrically coupled
+            directions in a model's activation space, and this representational coupling may be the mechanistic
+            origin of cross-objective interference — the well-documented failure of alignment methods to
+            satisfy multiple objectives simultaneously.
           </p>
           <p>
-            My published and ongoing work asks questions such as: how stable are personality traits in
-            large language models, how can we evaluate them using established psychological instruments,
-            can LLM agents maintain personas across multi-turn discourse, and what happens when we try to
-            steer model behaviour directly in activation space.
+            My published work has progressively built toward this question. I began by developing rigorous
+            psychometric evaluation methods for LLM behavioural traits, then studied persona consistency in
+            extended multi-agent discourse, before moving into activation-space analysis and steering. Most
+            recently, I demonstrated that behavioural trait directions are semantically entangled — geometric
+            orthogonalisation does not eliminate interference — providing the empirical foundation for the
+            forward research programme. This work has been published at <strong>WWW 2025</strong>,
+            <strong>EMNLP 2025</strong>, <strong>EACL 2026</strong>, and <strong>ACL 2026</strong>.
           </p>
           <p>
-            Before starting my PhD on <strong>1 March 2024</strong>, I built experience across
-            <strong>computer engineering</strong>, <strong>data science</strong>, software development,
-            teaching, and research supervision. I have also worked in frontend development and led teams,
-            which continues to shape the practical and product-facing side of how I think about AI systems.
+            Before my PhD I studied computer engineering and data science, worked as a software engineer
+            in fintech, and contributed to a Defence-funded NLP research project at Flinders University.
+            I currently also teach and mentor undergraduate and postgraduate students at UWA, which keeps
+            my work grounded in practical communication and real-world applicability.
           </p>
-          <p>
-            My long-term interest is to develop LLMs that better understand and respond to the emotional,
-            cognitive, and behavioural dimensions of human interaction, while remaining rigorous, safe,
-            and useful in real settings.
-          </p>
-
           <div class="tag-list">
             <span class="tag">Large Language Models</span>
-            <span class="tag">NLP</span>
-            <span class="tag">Computational Psychology</span>
+            <span class="tag">Mechanistic Interpretability</span>
+            <span class="tag">Multi-Objective Alignment</span>
+            <span class="tag">Activation Steering</span>
+            <span class="tag">Behavioural Representations</span>
+            <span class="tag">Representation Engineering</span>
             <span class="tag">Alignment</span>
-            <span class="tag">Preference Optimization</span>
-            <span class="tag">PyTorch</span>
-            <span class="tag">Transformers</span>
-            <span class="tag">Activation Analysis</span>
-          </div>
-        </div>
-
-        <div class="panel">
-          <div class="fact-grid">
-            <div class="fact-box">
-              <div class="label">Current Role</div>
-              <div class="value">PhD Candidate</div>
-            </div>
-            <div class="fact-box">
-              <div class="label">Institution</div>
-              <div class="value">UWA</div>
-            </div>
-            <div class="fact-box">
-              <div class="label">Location</div>
-              <div class="value">Perth, Australia</div>
-            </div>
-            <div class="fact-box">
-              <div class="label">Scholarship</div>
-              <div class="value">RTP / Australian Scholarship</div>
-            </div>
-            <div class="fact-box">
-              <div class="label">Background</div>
-              <div class="value">Computer Engineering + Data Science</div>
-            </div>
-            <div class="fact-box">
-              <div class="label">Focus</div>
-              <div class="value">LLM Behaviour & Alignment</div>
-            </div>
+            <span class="tag">NLP</span>
+            <!-- <span class="tag">PyTorch</span> -->
+            <!-- <span class="tag">Hugging Face Transformers</span> -->
           </div>
         </div>
       </div>
@@ -783,7 +754,7 @@
               and dimensional dominance, and compares OpenAI and Llama models.
             </p>
           </div>
-          <div class="badge poster">Presented</div>
+          <div class="badge pub">Presented</div>
         </article>
 
         <article class="paper">
@@ -796,7 +767,7 @@
               across conversations.
             </p>
           </div>
-          <div class="badge pub">Research</div>
+          <div class="badge pub">Presented</div>
         </article>
 
         <article class="paper">
@@ -809,7 +780,7 @@
               control, fluency, and cross-trait behavioural interference.
             </p>
           </div>
-          <div class="badge pub">Accepted</div>
+          <div class="badge pub">Presented</div>
         </article>
 
         <article class="paper">
@@ -822,7 +793,7 @@
               and how factor-aware optimization may improve robustness.
             </p>
           </div>
-          <div class="badge wip">Ongoing</div>
+          <div class="badge wip">Active</div>
         </article>
       </div>
     </section>
